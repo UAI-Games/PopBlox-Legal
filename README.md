@@ -10,15 +10,15 @@ Documentos legais de **PopBlox** (`com.studioblockwave.blockwave`) — publicado
 ## Publicar
 
 1. **Settings ▸ Pages ▸ Source: Deploy from a branch ▸ `main` / `(root)`**
-2. A URL fica `https://caixeta94.github.io/PopBlox-Legal/`
+2. A URL fica `https://UAI-Games.github.io/PopBlox-Legal/`
 
 ## URLs para a ficha da Play Store
 
 | Campo do Play Console | URL |
 |---|---|
-| Política de Privacidade | `https://caixeta94.github.io/PopBlox-Legal/privacidade.html` |
-| Exclusão de conta (Data safety) | `https://caixeta94.github.io/PopBlox-Legal/exclusao-de-conta.html` |
-| Site do desenvolvedor | `https://caixeta94.github.io/PopBlox-Legal/` |
+| Política de Privacidade | `https://UAI-Games.github.io/PopBlox-Legal/privacidade.html` |
+| Exclusão de conta (Data safety) | `https://UAI-Games.github.io/PopBlox-Legal/exclusao-de-conta.html` |
+| Site do desenvolvedor | `https://UAI-Games.github.io/PopBlox-Legal/` |
 | E-mail de suporte | `studio.blockwave@gmail.com` |
 
 ## Antes de publicar o app — confira

@@ -27,8 +27,21 @@
     <!-- MEXER AQUI SEMPRE QUE MUDAR O QUE O APP COLETA. Política publicada é
          compromisso público, e data que não acompanha a mudança faz o documento
          mentir sobre a própria vigência. 1.1 = medição de uso passou a ser
-         declarada, depois que o kit ganhou saída de telemetria. -->
-    <p class="meta"><strong>Última atualização:</strong> 5 de agosto de 2026 · <strong>Versão:</strong> 1.1</p>
+         declarada, depois que o kit ganhou saída de telemetria.
+         1.2 = o adendo "sem anúncios" deixou de afirmar que o jogo não coleta o
+         AAID. O manifesto mesclado dos AABs traz AD_ID pelo SDK do Firebase
+         Analytics, e nenhum jogo desliga a coleta — a frase antiga contradizia
+         a declaração de Segurança dos Dados da Play.
+         1.3 = anuncio passou a ser declarado em TODOS os apps, por decisao do
+         operador em 27/ago (ver games.json ▸ _decisao_iap_ads). O adendo "este
+         jogo nao exibe anuncios" saiu.
+         1.3, revisto em 29/ago ANTES de publicar: o adendo de anuncio foi
+         partido em quatro (ads / ads_so_premiado / ads_intersticial / ads_ssv).
+         O texto unico descrevia so a implementacao do kit, e o PopBlox — o
+         unico app NO AR — mostra intersticial ao fim da partida e nao tem SSV.
+         Sair como estava seria publicar afirmacao falsa. Frase que depende do
+         formato do anuncio agora exige flag propria. -->
+    <p class="meta"><strong>Última atualização:</strong> 29 de agosto de 2026 · <strong>Versão:</strong> 1.3</p>
     <p class="meta">Aplica-se a <strong>PopBlox</strong> (<code>com.studioblockwave.blockwave</code>). Documento geral do estúdio <strong>NoGaming</strong>, com o adendo específico deste jogo ao final.</p>
 
     <div class="callout">
@@ -203,6 +216,10 @@
     <p>Medimos <strong>como o jogo é usado</strong> pelo Firebase Analytics (Google): quando uma partida começa, quando você pega a recompensa diária, quando compra na loja e quando gira a roleta. Serve para uma coisa só — saber se o jogo está bom o bastante para as pessoas voltarem no dia seguinte.</p><p><strong>O que é enviado:</strong> o nome do evento e alguns números sobre ele (dia da sequência, item comprado, valor em moeda do jogo), mais o identificador de instalação, o modelo do aparelho, a versão do sistema e o país. <strong>Não</strong> enviamos seu nome, e-mail, telefone nem nada que identifique você pessoalmente, e <strong>não</strong> vendemos nem compartilhamos esses dados com anunciantes.</p><p><strong>Como recusar:</strong> em Configurações → Privacidade, desligando o envio de dados de uso. O jogo continua funcionando igual. <strong>Base legal:</strong> legítimo interesse (LGPD art. 7º, IX) — melhoria do produto.</p>
     <h3>Atribuição de instalação (AppsFlyer)</h3>
     <p>Usamos o <strong>AppsFlyer</strong> para saber <strong>de onde veio</strong> cada instalação — se de um anúncio, de uma busca na loja ou de uma indicação. Sem isso não temos como saber qual divulgação funciona.</p><p><strong>O que é enviado:</strong> identificador de publicidade (AAID), endereço IP, modelo do aparelho, versão do sistema e horários de instalação e de abertura. O AppsFlyer compartilha o resultado da atribuição com a <strong>rede de anúncios</strong> que trouxe você, para que ela saiba que a campanha funcionou.</p><p><strong>Como recusar:</strong> na tela de consentimento que aparece na primeira abertura, e depois a qualquer momento em Configurações → Privacidade. Recusando, a atribuição não roda. Você também pode zerar ou desativar o AAID em Configurações do Android → Google → Anúncios.</p>
+    <h3>Anúncios</h3>
+    <p>Este jogo exibe <strong>anúncios</strong>. Quem escolhe e entrega cada anúncio é o <strong>Google AdMob</strong>: para decidir o que mostrar, ele acessa o <strong>identificador de publicidade do Android (AAID)</strong> e dados técnicos do aparelho, e esses dados são tratados pela rede de publicidade da Google. Você pode zerar ou desativar o AAID em Configurações do Android → Google → Anúncios.</p><p><strong>Consentimento:</strong> onde a lei exige, aparece a tela de consentimento da Google (UMP) antes de qualquer anúncio carregar. <strong>Não exibimos anúncio personalizado para menores de 18 anos.</strong></p><p><strong>Base legal:</strong> consentimento (LGPD art. 7º, I).</p>
+    <h3>Anúncio entre partidas</h3>
+    <p>Além do anúncio premiado, que você escolhe assistir, este jogo mostra um <strong>anúncio automático quando a partida termina</strong> — esse aparece sem que você peça. Ele nunca interrompe uma partida em andamento, e não aparece a cada partida: há um limite de frequência.</p><p>Quem tem o passe <strong>sem anúncios</strong> não vê esse anúncio automático; o anúncio premiado continua disponível, porque é você quem decide assistir.</p>
     <h3>Ranking online</h3>
     <p>Este jogo tem <strong>ranking</strong>. Quando você envia uma pontuação, ficam visíveis para outros jogadores o seu <strong>apelido</strong>, a sua <strong>pontuação</strong> e a sua <strong>posição</strong>. Não são exibidos e-mail, foto nem qualquer outro dado da sua conta.</p><p>Você pode jogar sem enviar pontuação: o ranking é opcional e desligável em Configurações. Também pode trocar o apelido a qualquer momento.</p>
     <h3>Save na nuvem</h3>
@@ -213,7 +230,7 @@
     <h2>13. Contato</h2>
     <p><strong>Encarregado de Dados (DPO):</strong> Arthur Caixeta Nogueira</p>
     <p><strong>Email (DPO + suporte):</strong> <a href="mailto:studio.blockwave@gmail.com">studio.blockwave@gmail.com</a></p>
-    <p><strong>Razão social:</strong> Caixeta Nogueira — Consultoria Financeira LTDA · São Paulo, Brasil</p>
+    <p><strong>Razão social:</strong> Caixeta Nogueira — Consultoria Financeira LTDA · CNPJ 43.522.272/0001-64 · Sede: Rua Dr Neto de Araujo, 320, Sala 1.304, Vila Mariana, São Paulo - SP, CEP 04111-001</p>
     <p><strong>ANPD (Brasil):</strong> se não estiver satisfeito com nossa resposta, contate a
        <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">ANPD</a>. Autoridades da UE:
        <a href="https://edpb.europa.eu/about-edpb/board/members_en" target="_blank" rel="noopener">lista do EDPB</a>.</p>
